@@ -19,7 +19,7 @@
               <img src="../assets/logo.png" />
             </div>
           </div>
-          <span class="ml-2 text-xl font-bold tracking-wide text-gray-100 uppercase">Ben Starkie</span>
+          <span class="ml-2 text-xl font-bold tracking-wide text-gray-100 uppercase">Benjamin Starkie</span>
         </a>
         <ul class="flex items-center hidden space-x-8 lg:flex">
           <li>
@@ -48,7 +48,7 @@
               href="..\public\assets/Main_CV.pdf"
               aria-label="CV"
               title="CV"
-              class=""><button class="btn btn-primary">Resume</button></a>
+              class=""><button class="btn btn-primary text-gray-100">Resume</button></a>
           </li>
         </ul>
         <div class="lg:hidden">
