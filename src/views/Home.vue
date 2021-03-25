@@ -40,15 +40,10 @@ export default defineComponent({
   
   <section>
  <section class="text-gray-100 body-font bg-base-200 ">
-                <div class="container  flex flex-col items-center px-5 py-16 mx-auto md:flex-row">
+                <div class="container flex flex-col items-center px-5 py-16 mx-auto md:flex-row">
                     <div
                         class="flex flex-col items-center w-full pt-0 mb-16 text-left lg:flex-grow md:w-1/2 xl:mr-20 md:pr-24 md:items-start md:text-left md:mb-0 lg:text-center">
-                    <h2 class="mb-1 text-xs font-medium tracking-widest text-gray-100 title-font">
-                        Your tagline
-                    </h2>
-                    <h1 class="mb-8 text-2xl font-bold tracking-tighter text-center text-gray-100 lg:text-left lg:text-5xl title-font">
-                        Medium length display headline.
-                    </h1>
+                        <h3 class="mb-5 text-2xl text-center font-bold "><span class="font-medium tracking-wide btn btn-ghost text-primary transition-colors duration-200 hover:text-teal-accent-400">0.1</span> About Me. <span class="font-medium tracking-wide text-primary transition-colors duration-200 hover:text-teal-accent-400">⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</span></h3> 
                     <p class="mb-8 text-base leading-relaxed text-center text-gray-1000 lg:text-left lg:text-1xl">
                         Deploy
                         your mvp in
