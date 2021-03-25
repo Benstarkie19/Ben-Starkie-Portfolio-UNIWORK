@@ -12,29 +12,24 @@ export default defineComponent({
     <NavBar />
   <main>
 
-    <div class="bg-gray-50">
-      <div
-        class="max-w-screen-xl px-4 py-12 mx-auto sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between"
-      >
-        <h2
-          class="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 sm:text-4xl sm:leading-10"
-        >
-          Ready to dive in?
-          <br />
-          <span class="text-indigo-600">Vite 2.x + Vue 3.x + Tailwind 2.x</span> 
-        </h2>
-        <div class="flex mt-8 lg:flex-shrink-0 lg:mt-0">
-          <div class="inline-flex rounded-md shadow">
-            <button class="btn btn-primary rounded-full">DaisyUI Button</button>
-            <router-link
-              to="/about"
-              class="inline-flex items-center justify-center px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-indigo-600 border border-transparent rounded-md hover:bg-indigo-500 focus:outline-none"
-              >Next Page</router-link
-            >
-          </div>
-          <ButtonRepo />
-        </div>
-      </div>
+<div class="hero min-h-screen bg-base-200 ">
+  <div class="text-center text-white hero-content">
+    <div class="max-w-md">
+      <h3 class="mb-5 font-mono text-primary text-lg font-light">
+            Hi, my name is
+          </h3>
+          <h1 class="mb-5 text-5xl font-bold ">
+            Benjamin Starkie.
+          </h1>
+          <h1 class="mb-5 text-5xl font-bold opacity-50 ">
+            A web design and development graduate.
+          </h1>
+      <p class="mb-5 opacity-50">
+            I'm Benjamin Starkie, a UK-based web designer who specializes in building (and occasionally designing). I craft, create websites, illustrate, and make logos.
+          </p> 
+      <button class="btn btn-primary">Get In touch</button> 
     </div>
+  </div>
+</div>
   </main>
 </template>
