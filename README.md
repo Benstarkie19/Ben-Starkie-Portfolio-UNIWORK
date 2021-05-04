@@ -18,7 +18,7 @@ Clone this repository. You will need `node.js` and `git` installed globally on y
 
 ## 🛠 Installation and Setup Instructions
 
-1. Clone: `git clone https://github.com/Benstarkie19/Work-Portfolio-2021`
+1. Clone: `git clone https://github.com/Benstarkie19/Ben-Starkie-Portfolio`
 
 2. Installation: `npm install`
 
