@@ -73,9 +73,9 @@ export default defineComponent({
                         </button>
                     </div>
                 </div>
-                <div class="w-5/6 lg:max-w-lg lg:w-full md:w-1/2">
+                <div class="w-5/6 lg:max-w-sm lg:w-full md:w-1/2">
                     <img class="object-cover object-center mb-8 rounded-btn ring ring-primary ring-offset-base-100 ring-offset-2 " alt="hero"
-                        src="https://dummyimage.com/720x600/F3F4F7/8693ac">
+                        src="../assets/face.png">
                 </div>
             </div>
         </section>              
@@ -111,12 +111,12 @@ export default defineComponent({
         </div>
         <div class="md:flex-grow">
           <h3 class="mb-5 text-4xl text-center font-bold text-primary "> Flatmate-Finder-Application</h3> 
-          <p class="mb-8 text-base leading-relaxed text-left text-gray-1000 lg:text-left lg:text-2xl opacity-50">Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.</p>
+          <p class="mb-8 text-base leading-relaxed text-left text-gray-1000 lg:text-left lg:text-2xl opacity-50">A cross-platform application developed using React native. Enabling students of Edge Hill University to find accommodation once development is finished. Currently in working prototype stage testing both android/Ios and the web app counterpart. Hosted on GitHub for open-source availability, Feel free to fork and edit.  </p>
             <div class="flex-col hero-content lg:flex-row-reverse">
-    <img src="https://picsum.photos/id/1005/600/600" class="max-w-sm rounded-lg shadow-2xl"> 
+    <img src="../assets/screen1.png" class="rounded-2xl shadow-5xl border-2 border-primary hover:border-white"> 
     </div>
           <button class="items-center px-6 py-2 mt-10 font-semibold text-white transition duration-500 ease-in-out transform bg-black rounded-lg hover:bg-gray-800 hover:to-black focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2">
-                            <a href="https://github.com/Benstarkie19">Github</a>       
+                            <a href="https://github.com/Benstarkie19/Flatmate-Finder-Application">Github Repo</a>       
                         </button>
         </div>
       </div>
