@@ -33,6 +33,7 @@ export default defineComponent({
         </div>
         <div class="md:flex-grow">
           <h3 class="mb-5 text-4xl text-center font-bold text-primary "> MDS-Global-AgentView-Designs</h3> 
+          <button class="btn btn-primary text-gray-100"> <a href="https://github.com/Benstarkie19/MDS-Global-AgentView-Designs">GitHub</a> </button> 
           <p class="mb-8 text-base leading-relaxed text-left text-gray-1000 lg:text-left lg:text-2xl opacity-50">MDS global agent view UI redesign based on the given use case provided by the business.  </p>
             <div class="flex-col hero-content lg:flex-row-reverse">
     <img src="../assets/screen2.png" class="rounded-2xl shadow-5xl border-2 border-white"> 

@@ -33,7 +33,8 @@ export default defineComponent({
           <span class="mt-1 opacity-50 text-sm "> Feb 25, 2021</span>
         </div>
         <div class="md:flex-grow">
-          <h3 class="mb-5 text-4xl text-center font-bold text-primary "> J.J-Whitley-Small-Task</h3> 
+          <h3 class="mb-5 text-4xl text-center font-bold text-primary "> J.J-Whitley-Small-Task</h3>
+          <button class="btn btn-primary text-gray-100"> <a href="https://github.com/Benstarkie19/J.J-Whitley-Small-Task">GitHub</a> </button>  
           <p class="mb-8 text-base leading-relaxed text-left text-gray-1000 lg:text-left lg:text-2xl opacity-50">Designed a small based website on JJ Whitley vodka. The first project using sass/CSS with standard HTML no JS framework.</p>
             <div class="flex-col hero-content lg:flex-row-reverse">
     <img src="../assets/screen3.png" class="rounded-2xl shadow-5xl border-2 border-primary "> 
@@ -41,6 +42,7 @@ export default defineComponent({
           <button class="items-center px-6 py-2 mt-10 font-semibold text-white transition duration-500 ease-in-out transform bg-black rounded-lg hover:bg-gray-800 hover:to-black focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2">
                             <a href="/">Home</a>       
                         </button>
+                        
         </div>
       </div>
     </div>
