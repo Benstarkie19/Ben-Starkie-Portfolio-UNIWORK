@@ -25,6 +25,13 @@
           <li>
             <a
               href="/"
+              aria-label="Home"
+              title="Home"
+              class="font-medium tracking-wide text-primary btn btn-ghost transition-colors duration-200 hover:text-teal-accent-400"> <span class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400">Home</span></a>
+          </li>
+          <li>
+            <a
+              href=""
               aria-label="About"
               title="About"
               class="font-medium tracking-wide btn btn-ghost text-primary transition-colors duration-200  hover:text-teal-accent-400">01. <span class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400">About</span></a>
