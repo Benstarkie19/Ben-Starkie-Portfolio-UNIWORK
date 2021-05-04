@@ -29,20 +29,21 @@
               title="About"
               class="font-medium tracking-wide btn btn-ghost text-primary transition-colors duration-200  hover:text-teal-accent-400">01. <span class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400">About</span></a>
           </li>
+           <li>
+            <a
+              href="/"
+              aria-label="Projects"
+              title="Projects"
+              class="font-medium tracking-wide text-primary btn btn-ghost transition-colors duration-200 hover:text-teal-accent-400">02. <span class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400">Projects</span></a>
+          </li>
           <li>
             <a
               href="/"
               aria-label="Contact"
               title="Contact"
-              class="font-medium tracking-wide text-primary btn btn-ghost transition-colors duration-200  hover:text-teal-accent-400">02. <span class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400">Contact</span></a>
+              class="font-medium tracking-wide text-primary btn btn-ghost transition-colors duration-200  hover:text-teal-accent-400">03. <span class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400">Contact</span></a>
           </li>
-          <li>
-            <a
-              href="/"
-              aria-label="Projects"
-              title="Projects"
-              class="font-medium tracking-wide text-primary btn btn-ghost transition-colors duration-200 hover:text-teal-accent-400">03. <span class="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400">Projects</span></a>
-          </li>
+
           <li>
             <a
               href="..\public\assets/Main_CV.pdf"
@@ -72,8 +73,8 @@
               ></path>
             </svg>
           </button>
-          <div v-if="isMenuOpen" class="absolute top-0 left-0 w-full">
-            <div class="p-5 bg-neutral rounded shadow-sm">
+          <div v-if="isMenuOpen" class="fixed top-0 left-0 w-full">
+            <div class="p-5 bg-neutral rounded text-center shadow-sm">
               <div class="flex items-center justify-between mb-4">
                 <div>
                   <a

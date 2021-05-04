@@ -3,3 +3,10 @@
 @import 'tailwindcss/components';
 
 @import 'tailwindcss/utilities';
+
+
+li:before {
+    content: '\2022';
+    padding-right: 1em;
+    color: #f28c18;
+}
