@@ -53,7 +53,7 @@
 
           <li>
             <a
-              href="..\public\assets/Main_CV.pdf"
+              href="../assets/Main_CV.pdf"
               aria-label="CV"
               title="CV"
               class=""><button class="btn btn-primary text-gray-100">Resume</button></a>
