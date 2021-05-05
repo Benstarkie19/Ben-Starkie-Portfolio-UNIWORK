@@ -35,7 +35,7 @@ export default defineComponent({
           <h3 class="mb-5 text-4xl text-center font-bold text-primary "> MDS-Global-AgentView-Designs</h3> 
           <button class="btn btn-primary text-gray-100"> <a href="https://github.com/Benstarkie19/MDS-Global-AgentView-Designs">GitHub</a> </button> 
             <a
-              href="../assets/MDS Global Wire.pdf"
+              href="../assets/MDS.pdf"
               aria-label="CV"
               title="CV"
               class=""><button class="btn btn-primary text-gray-100">Designs PDF</button></a>
