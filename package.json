@@ -10,7 +10,7 @@
   "dependencies": {
     "daisyui": "^0.14.6",
     "vue": "^3.0.7",
-    "vue-loading-overlay": "^3.4.2",
+    "vue-loading-overlay": "^4.0.4",
     "vue-router": "^4.0.5",
     "vue-splash": "^1.2.1"
   },
